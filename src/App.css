@@ -1,0 +1,83 @@
+.button-contact:hover+.svg-contact {
+    color: #FF6262;
+}
+
+.button-contact:hover {
+    animation: jumpeffect 0.7s ease-in-out both;
+    background: #FF6262;
+    box-shadow: 0px 0px 30px #ffffff33;
+}
+
+.button-contact::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    width: 30px;
+    height: 20px;
+    mask-position: center;
+    mask-image: url('./../public/mask-tl-button.svg');
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    background-color: #fff;
+}
+
+.button-contact::after {
+    content: '';
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    width: 30px;
+    height: 20px;
+    mask-position: center;
+    mask-image: url('./../public/mask-br-button.svg');
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    background-color: #fff;
+}
+
+.outside-button-contact::after {
+    content: '';
+    position: absolute;
+    width: calc(100% / 2);
+    height: 5px;
+    bottom: -15px;
+    left: 45%;
+    border-radius: 100%;
+    background: #1029371a;
+    filter: blur(2px);
+    opacity: 1;
+    pointer-events: none;
+    transform: translateX(-50%);
+}
+
+@keyframes jumpeffect {
+    0% {
+        transform: scaleY(1);
+        transform-origin: bottom center;
+    }
+
+    25% {
+        transform: scaleY(1.05) translateY(-3px);
+    }
+
+    50% {
+        transform: scaleY(1);
+        transform-origin: bottom center;
+    }
+
+    75% {
+        transform: scaleY(0.95) translateY(3px);
+    }
+
+    100% {
+        transform: scaleY(1);
+        transform-origin: top center;
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 150%;
+    }
+}

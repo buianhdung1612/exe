@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Recursive:wght@300..1000&display=swap');
+@import "tailwindcss";
+
+@config ".././tailwind.config.ts";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Londrina Solid', display;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+}
