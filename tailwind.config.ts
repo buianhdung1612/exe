@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+import plugin from "tailwindcss/plugin"
 
 const config: Config = {
   content: [
@@ -15,11 +16,26 @@ const config: Config = {
         },
       },
       fontFamily: {
-        secondary: ["Londrina Solid", "display"],
+        secondary: ['Londrina Solid', 'Arial', 'sans-serif'],
+      },
+      screens: {
+        "2xl": { max: "1540px" },
+        "xl": { max: "1280px" },
+        "lg": { max: "1024px" },
+        "md": { max: "767px" },
+        "sm": { max: "479px" },
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addComponents }) {
+      addComponents({
+        ".app-container": {
+          "@apply w-full mx-auto max-w-[1520px] 2xl:max-w-[1300px] xl:max-w-[1100px] lg:max-w-[850px] md:max-w-[580px] sm:max-w-[400px]": {},
+        },
+      })
+    }),
+  ],
 }
 
 export default config
