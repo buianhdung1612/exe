@@ -263,8 +263,9 @@
     animation: wiggle 3s infinite;
 }
 
-.section-3 {
-    clip-path: ellipse(135% 100% at 50% 100%);
+.section-3,
+.section-6 {
+    clip-path: ellipse(175% 100% at 50% 100%);
 }
 
 .section-3-item::before {
@@ -289,6 +290,51 @@
     mask-repeat: no-repeat;
     padding: 25px 35px 25px 35px;
     line-height: 1;
+}
+
+.product-item .primary-image-item {
+    opacity: 1;
+}
+
+.product-item .secondary-image-item {
+    opacity: 0;
+}
+
+.product-item:hover .primary-image-item {
+    opacity: 0;
+}
+
+.product-item:hover .secondary-image-item {
+    opacity: 1;
+}
+
+.cart-button::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    clip-path: path("M60,30v30H30c8.3,0,15.8-3.4,21.2-8.8C56.6,45.8,60,38.3,60,30z");
+    bottom: 0px;
+    left: -60px;
+}
+
+.cart-button::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    clip-path: path("M60,30v30H30c8.3,0,15.8-3.4,21.2-8.8C56.6,45.8,60,38.3,60,30z");
+    right: 0px;
+    top: -60px;
+}
+
+.section-6 {
+    background-image: url(https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/07/h1-offer-banner-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @keyframes jumpeffect {
