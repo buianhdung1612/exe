@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const products: Product[] = [
     {
         id: 1,
-        title: "Pet Tags",
+        title: "Thẻ tên",
         price: "360.000đ",
         primaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-10-1000x1048.jpg",
         secondaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-10c-1000x1048.jpg",
@@ -15,7 +15,7 @@ const products: Product[] = [
     },
     {
         id: 2,
-        title: "Dog Collar",
+        title: "Vòng cổ",
         price: "220.000đ",
         primaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-11-1000x1048.jpg",
         secondaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-11c-1000x1048.jpg",
@@ -24,7 +24,7 @@ const products: Product[] = [
     },
     {
         id: 3,
-        title: "Cat Toy",
+        title: "Đồ chơi mèo",
         price: "150.000đ",
         primaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-12-1000x1048.jpg",
         secondaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-12c-1000x1048.jpg",
@@ -33,10 +33,10 @@ const products: Product[] = [
     },
     {
         id: 4,
-        title: "Bird Food Mixture",
+        title: "Nệm nylon",
         price: "540.000đ",
-        primaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-14-1000x1048.jpg",
-        secondaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-14a-1000x1048.jpg",
+        primaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-9-1000x1048.jpg",
+        secondaryImage: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/product-img-9a-1000x1048.jpg",
         rating: 4,
         isSale: true,
     },
@@ -47,9 +47,9 @@ export const Section5 = () => {
         <section>
             <div className="app-container pb-[150px]">
                 <SectionHeader
-                    subtitle="Retail Space"
-                    title="Purchase Prime Pet Supplies"
-                    desc="Dolor sit amet consectetur adipiscing elit quisque faucibus. In id cursus mi pretium tellus duis convallis. Urna tempor pulvinar vivamus fringilla lacus nec metus."
+                    subtitle="Không gian bán lẻ"
+                    title="Mua sắm đồ dùng thú cưng cao cấp"
+                    desc="Chúng tôi cung cấp đầy đủ các sản phẩm chăm sóc thú cưng chất lượng cao. Từ thức ăn dinh dưỡng đến đồ chơi vui nhộn, tất cả đều được tuyển chọn kỹ lưỡng để mang lại sự an toàn và hạnh phúc cho thú cưng yêu quý của bạn."
                     widthDesc="w-[745px]"
                 />
 
@@ -64,7 +64,7 @@ export const Section5 = () => {
                             to="/"
                             className="inline-block relative mask-[url('/mask-bg-button.svg')] mask-no-repeat mask-center mask-[size:100%] rounded-[10px] bg-client-primary px-[30px] py-[12px] text-[2rem] font-secondary text-white hover:text-white button-more section-3-button-more transition-all duration-300 linear"
                         >
-                            Browse All Products
+                            Xem tất cả sản phẩm
                         </Link>
                         <svg
                             fill="currentColor"

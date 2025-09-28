@@ -136,14 +136,6 @@
     background: white;
 }
 
-.section-1-button-more::before {
-    background: white;
-}
-
-.section-1-button-more::after {
-    background: white;
-}
-
 .button-more::after:hover,
 .button-more::before:hover {
     background-color: white;

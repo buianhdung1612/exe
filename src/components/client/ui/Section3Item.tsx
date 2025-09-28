@@ -11,7 +11,7 @@ export const Section3Item = ({ text, icon: Icon }: Section3ItemData) => {
                     className="text-client-secondary pl-[15px] relative 
            before:content-[''] before:absolute before:top-[10px] 
            before:left-0 before:w-[0.5rem] before:h-[0.5rem] 
-           before:bg-client-secondary"
+           before:bg-client-secondary line-clamp-1"
                 >
                     {text}
                 </div>

@@ -21,11 +21,11 @@ export const ServiceCard = ({ image, title, description, link }: ServiceCardProp
                     />
                 </div>
                 <h3 className="mb-[15px] mt-[15px]">
-                    <Link to={link} className="text-client-secondary text-[3rem] 2xl:text-[2.84rem] font-secondary">
+                    <Link to={link} className="text-client-secondary text-[2.5rem] 2xl:text-[2.2rem] font-secondary line-clamp-1">
                         {title}
                     </Link>
                 </h3>
-                <p className="text-[#505050] font-[500]">{description}</p>
+                <p className="text-[#505050] font-[500] line-clamp-3">{description}</p>
             </div>
             <div className="bottom-container w-[88%] 2xl:w-[90%] h-[65px] flex">
                 <div className="bottom-rounded bg-[#fff0f0] rounded-b-[30px] w-full h-full"></div>

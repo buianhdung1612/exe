@@ -3,27 +3,27 @@ import { ServiceCard } from "../../ui/ServiceCard";
 
 const services = [
     {
-        image: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/06/service-png-img-alt-06.png",
-        title: "Bird Practice",
-        description: "Bibendum egestas iaculis massa nisl malesuada lacinia integer.",
+        image: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/06/service-png-img-alt-04.png",
+        title: "Đồ dùng thú cưng",
+        description: "Cung cấp đầy đủ các sản phẩm chăm sóc và phụ kiện chất lượng cao cho thú cưng.",
         link: "/",
     },
     {
-        image: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/06/service-png-img-alt-06.png",
-        title: "Bird Practice",
-        description: "Bibendum egestas iaculis massa nisl malesuada lacinia integer.",
+        image: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/06/service-png-img-alt-08.png",
+        title: "Vui chơi",
+        description: "Các hoạt động thể chất và vui chơi giúp thú cưng khỏe mạnh và năng động.",
         link: "/",
     },
     {
-        image: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/06/service-png-img-alt-06.png",
-        title: "Bird Practice",
-        description: "Bibendum egestas iaculis massa nisl malesuada lacinia integer.",
+        image: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/06/service-png-img-alt-07.png",
+        title: "Nhà thú cưng",
+        description: "Cung cấp không gian sống an toàn và thoải mái nhất cho thú cưng yêu quý.",
         link: "/",
     },
     {
-        image: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/06/service-png-img-alt-06.png",
-        title: "Bird Practice",
-        description: "Bibendum egestas iaculis massa nisl malesuada lacinia integer.",
+        image: "https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/06/service-png-img-alt-05.png",
+        title: "Yêu thương",
+        description: "Đồng hành cùng bạn trong hành trình tìm kiếm và nhận nuôi thú cưng phù hợp nhất.",
         link: "/",
     }
 ];
@@ -40,9 +40,9 @@ export const Section2 = () => {
                 </div>
                 <div className="app-container text-center">
                     <SectionHeader
-                        subtitle="Serving Pet Needs"
-                        title="Explore Our Pet Services"
-                        desc="Fringilla lacus nec metus bibendum egestas iaculis massa. Ut hendrerit semper vel class aptent taciti sociosqu.Inceptos himenaeos orci varius natoque."
+                        subtitle="Phục vụ nhu cầu thú cưng"
+                        title="Khám phá dịch vụ cho thú cưng"
+                        desc="Mang đến các dịch vụ chăm sóc, huấn luyện và vui chơi cho thú cưng một cách toàn diện. Chúng tôi luôn đồng hành để thú cưng của bạn khỏe mạnh và hạnh phúc."
                         widthDesc="w-[720px]"
                     />
                     <div className="grid grid-cols-4 gap-[30px]">

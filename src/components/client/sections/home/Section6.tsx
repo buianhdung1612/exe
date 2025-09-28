@@ -6,7 +6,12 @@ export const Section6 = () => {
         <section className="relative px-[30px] py-[150px] bg-white section-6 h-[800px] 2xl:h-[700px]">
             <div className="app-container flex">
                 <div className="w-[50%] pr-[100px]">
-                    <SectionHeader subtitle="Instant Discount" align="left" title="Pawsome Deals You’ll Love — Ending Really Soon" desc="Lacinia integer nunc posuere ut hendrerit semper vel. Torquent per conubia nostra inceptos himenaeos orci varius. Montes nascetur ridiculus mus donec rhoncus eros lobortis." />
+                    <SectionHeader
+                        subtitle="Giảm Giá Nhanh"
+                        align="left"
+                        title="Ưu Đãi Tuyệt Vời Cho Chú Cưng — Sắp Kết Thúc!"
+                        desc="Nhanh tay tận hưởng những ưu đãi đặc biệt cho thú cưng của bạn. Chương trình có thời hạn, đừng bỏ lỡ cơ hội sở hữu những món đồ yêu thích với giá hời và chất lượng đảm bảo."
+                    />
                     <div className="flex items-center"></div>
                     <div className="pt-[20px]">
                         <div className="relative inline-block min-w-[142px] text-left mt-[30px] ml-[10px] outside-button-more">
@@ -14,7 +19,7 @@ export const Section6 = () => {
                                 to="/"
                                 className="inline-block relative mask-[url('/mask-bg-button.svg')] mask-no-repeat mask-center mask-[size:100%] rounded-[10px] bg-client-primary px-[30px] py-[12px] text-[2rem] font-secondary text-white hover:text-white button-more section-3-button-more transition-all duration-300 linear"
                             >
-                                Claim Your Offer
+                                Nhận ưu đãi
                             </Link>
                             <svg
                                 fill="currentColor"
@@ -30,7 +35,6 @@ export const Section6 = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     )

@@ -12,8 +12,11 @@ export const TopBar = () => {
         { icon: YoutubeSolid, to: "/" },
     ];
 
-    const texts = ["Summer Specials Are Live & Enjoy Free Delivery Above $350", "Dive Into Summer Savings – Free Delivery Over $630!", "Hot Prices, Cool Perks – Enjoy Free Shipping Above $200!"];
-
+    const texts = [
+        "Ưu đãi mùa hè đã có – Miễn phí giao hàng cho đơn trên 8 triệu!",
+        "Đắm chìm trong mùa hè tiết kiệm – Miễn phí vận chuyển trên 15 triệu!",
+        "Giá nóng, ưu đãi mát – Nhận giao hàng miễn phí cho đơn trên 5 triệu!"
+    ];
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
@@ -65,7 +68,7 @@ export const TopBar = () => {
                     </div>
                     <Link to={"/"} className="flex items-center text-white hover:text-[#FFFFFFBF] transition-[color] duration-300">
                         <MailSolid className="w-[1.7rem] h-[1.7rem] mr-[10px] text-white" />
-                        <span>Sweetheart@example.com</span>
+                        <span>Teddypet@gmail.com</span>
                     </Link>
                 </div>
             </div>

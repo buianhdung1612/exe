@@ -6,14 +6,18 @@ export const Section1 = () => {
             <section className="px-[30px] pt-[120px] bg-[linear-gradient(-90deg,#FF6262_10%,#FF9466_100%)] section-1">
                 <div className="app-container flex gap-[30px]">
                     <section className="text-white pl-[80px] w-[50%] relative section-1-left">
-                        <p className="uppercase mb-[10px]">Heartfelt Pet Connections</p>
-                        <h1 className="font-secondary text-[6.5rem] 2xl:text-[5.7rem] leading-[1.2] mb-[17px]">The Beginning Of Every Pet's Journey With The Love.</h1>
-                        <p className="pr-[20%] mb-[40px]">Cras eleifend turpis fames primis vulputate ornare sagittis. Proin libero feugiat tristique accumsan maecenas potenti ultricies. </p>
+                        <p className="uppercase mb-[10px]">Kết Nối Yêu Thương Cùng Thú Cưng</p>
+                        <h1 className="font-secondary text-[6.3rem] 2xl:text-[5.7rem] leading-[1.2] mb-[17px]">
+                            Khởi đầu hành trình của mỗi thú cưng với tình yêu thương.
+                        </h1>
+                        <p className="pr-[20%] mb-[40px]">
+                            Trải nghiệm những khoảnh khắc đáng nhớ cùng thú cưng của bạn. Chúng tôi mang đến sự chăm sóc, niềm vui và kết nối tuyệt vời cho mọi hành trình.
+                        </p>
                         <div className="flex gap-[30px]">
                             <div className="relative inline-block min-w-[142px] outside-button-more">
                                 <Link
                                     to="/"
-                                    className="inline-block relative mask-[url('/mask-bg-button.svg')] mask-no-repeat mask-center mask-[size:100%] rounded-[10px] bg-white px-[30px] py-[12px] text-[2rem] font-secondary text-client-secondary hover:text-white button-more section-1-button-more transition-all duration-300 linear"
+                                    className="inline-block relative mask-[url('/mask-bg-button.svg')] mask-no-repeat mask-center mask-[size:100%] rounded-[10px] bg-white px-[30px] py-[12px] text-[1.5rem] font-secondary text-client-secondary hover:text-white button-more section-1-button-more transition-all duration-300 linear"
                                 >
                                     Xem thêm
                                 </Link>
@@ -28,7 +32,7 @@ export const Section1 = () => {
                                     <img src="https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/06/rate-group-img.png" alt="" />
                                 </Link>
                                 <span className="w-[55px] h-[55px] rounded-full border-[2px] border-solid border-white bg-[#e67e20] inline-flex justify-center items-center mr-[10px] ml-[-20px]">2k+</span>
-                                <p className="w-[100px] leading-[19.2px]">Satisfied Clients</p>
+                                <p className="w-[100px] leading-[19.2px]">Khách hàng hài lòng</p>
                             </div>
                         </div>
                     </section>

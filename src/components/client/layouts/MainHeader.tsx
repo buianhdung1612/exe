@@ -7,9 +7,9 @@ export const MainHeader = () => {
             <div className="p-[30px] bg-white border-b border-[#1029371A]">
                 <div className="app-container flex items-center justify-between">
                     {/* Logo */}
-                    <div className="w-[25.6%]">
+                    <div className="w-[15%] flex justify-center">
                         <Link to="/">
-                            <img src="https://wdtsweetheart.wpengine.com/wp-content/uploads/2025/05/gradient-logo.png" alt="" width={208} height={59} className="object-cover" />
+                            <img src="https://i.imgur.com/DcYTLEL.jpeg" alt="" className="w-[80px] object-cover" />
                         </Link>
                     </div>
 

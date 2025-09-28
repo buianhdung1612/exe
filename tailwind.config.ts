@@ -16,7 +16,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        secondary: ['Londrina Solid', 'Arial', 'sans-serif'],
+        secondary: ['Be Vietnam Pro', 'sans-serif'],
       },
       screens: {
         "2xl": { max: "1540px" },
@@ -28,10 +28,18 @@ const config: Config = {
     },
   },
   plugins: [
-    plugin(function ({ addComponents }) {
+    plugin(function ({ addComponents, addUtilities }) {
       addComponents({
         ".app-container": {
           "@apply w-full mx-auto max-w-[1520px] 2xl:max-w-[1300px] xl:max-w-[1100px] lg:max-w-[850px] md:max-w-[580px] sm:max-w-[400px]": {},
+        },
+      })
+
+      // Thêm font-secondary mặc định weight 600
+      addUtilities({
+        ".font-secondary": {
+          fontFamily: "'Be Vietnam Pro', sans-serif",
+          fontWeight: "700",
         },
       })
     }),
