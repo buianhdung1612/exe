@@ -59,7 +59,7 @@ export const Section5 = () => {
                     ))}
                 </div>
                 <div className="text-center pt-[20px]">
-                    <div className="relative inline-block min-w-[142px] text-left mt-[30px] ml-[10px] outside-button-more">
+                    <div className="relative inline-block min-w-[142px] text-left mt-[30px] ml-[10px] outside-button">
                         <Link
                             to="/"
                             className="inline-block relative mask-[url('/mask-bg-button.svg')] mask-no-repeat mask-center mask-[size:100%] rounded-[10px] bg-client-primary px-[30px] py-[12px] text-[2rem] font-secondary text-white hover:text-white button-more section-3-button-more transition-all duration-300 linear"

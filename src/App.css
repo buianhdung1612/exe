@@ -1,19 +1,9 @@
-.button-contact:hover+.svg-contact {
-    color: #FF6262;
-}
-
 .section-3-button-more:hover+.svg-section-3,
 .section-1-button-more:hover+.svg-section-1 {
     color: #102937;
 }
 
-.button-contact:hover {
-    animation: jumpeffect 0.7s ease-in-out both;
-    background: #FF6262;
-    box-shadow: 0px 0px 30px #ffffff33;
-}
-
-.button-contact::before {
+.button-text::before {
     content: '';
     position: absolute;
     left: 6px;
@@ -24,10 +14,9 @@
     mask-image: url('./../public/mask-tl-button.svg');
     mask-repeat: no-repeat;
     mask-size: 100% 100%;
-    background-color: #fff;
 }
 
-.button-contact::after {
+.button-text::after {
     content: '';
     position: absolute;
     right: 6px;
@@ -38,11 +27,9 @@
     mask-image: url('./../public/mask-br-button.svg');
     mask-repeat: no-repeat;
     mask-size: 100% 100%;
-    background-color: #fff;
 }
 
-.outside-button-contact::after,
-.outside-button-more::after {
+.outside-button::after {
     content: '';
     position: absolute;
     width: calc(100% / 2);
@@ -50,7 +37,6 @@
     bottom: -15px;
     left: 45%;
     border-radius: 100%;
-    background: #1029371a;
     filter: blur(2px);
     opacity: 1;
     pointer-events: none;

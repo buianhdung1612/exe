@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { Button } from "../../ui/Button"
 
 export const Section4 = () => {
     return (
@@ -14,7 +15,7 @@ export const Section4 = () => {
                             Ưu đãi có hạn!
                         </div>
                         <h3 className="text-white text-[4rem] font-secondary leading-[1.2] mb-[20px]">Giảm giá đặc biệt</h3>
-                        <div className="relative inline-block min-w-[142px] outside-button-more">
+                        {/* <div className="relative inline-block min-w-[142px] outside-button">
                             <Link
                                 to="/"
                                 className="inline-block relative mask-[url('/mask-bg-button.svg')] mask-no-repeat mask-center mask-[size:100%] rounded-[10px] bg-white px-[30px] py-[12px] text-[1.6rem] font-secondary text-client-secondary section-4-button-more transition-all duration-300 linear"
@@ -26,7 +27,14 @@ export const Section4 = () => {
                                 <path d="M1.2,11.3c-0.5-0.6-0.8-0.8-0.4-1.7c0.9-3,2.2-5.9,3.6-8.7C4.9,0,5.3-0.3,5.7,0c0.5,0.2,0.5,0.8,0.1,1.7 c-1.4,2.7-2.6,5.5-3.5,8.5C2.2,10.6,2,11.1,1.2,11.3L1.2,11.3z"></path>
                                 <path d="M5.9,13.8c-0.7,0.1-1.2-0.4-0.9-1c0.2-0.4,0.5-0.8,0.8-1.1c2.1-2,4.3-4,6.3-6.1c0.4-0.4,0.8-0.5,1.2-0.1 c0.8,0.9-0.8,1.9-1.3,2.5C10,9.9,8.1,12,5.9,13.8L5.9,13.8z"></path>
                             </svg>
-                        </div>
+                        </div> */}
+                        <Button
+                            content="Mua ngay"
+                            svgColor="text-client-primary"
+                            hoverSvgColor="group-hover:text-client-secondary"
+                            textColor="text-client-secondary"
+                            iconColor="before:bg-white after:bg-white"
+                        />
                     </div>
                     <div className="section-4-sale bg-[#C32643] absolute bottom-[10px] right-[15px] w-[136px] h-[133px] text-[3.2rem] font-secondary text-white flex items-center justify-center">
                         20% OFF
@@ -42,7 +50,7 @@ export const Section4 = () => {
                             Tiết kiệm tuyệt vời
                         </div>
                         <h3 className="text-white text-[4rem] font-secondary leading-[1.2] mb-[20px]">Nhận ngay ưu đãi này</h3>
-                        <div className="relative inline-block min-w-[142px] outside-button-more">
+                        <div className="relative inline-block min-w-[142px] outside-button">
                             <Link
                                 to="/"
                                 className="inline-block relative mask-[url('/mask-bg-button.svg')] mask-no-repeat mask-center mask-[size:100%] rounded-[10px] bg-white px-[30px] py-[12px] text-[1.6rem] font-secondary text-client-secondary section-4-button-more transition-all duration-300 linear"
