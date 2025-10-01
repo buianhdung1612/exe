@@ -21,7 +21,7 @@ export const SectionHeader = ({
         <div className={`mb-10 ${align === "center" ? "text-center" : "text-left"}`}>
             {subtitle && (
                 <p
-                    className={`uppercase text-client-primary mb-[10px] ${widthSubTitle ?? ""}`}
+                    className={`uppercase text-client-primary mb-[15px] ${widthSubTitle ?? ""}`}
                 >
                     {subtitle}
                 </p>

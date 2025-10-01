@@ -68,10 +68,6 @@ export const Section3 = () => {
                                 hoverBackground="group-hover:bg-client-secondary"
                                 svgColor="text-client-primary"
                                 hoverSvgColor="group-hover:text-client-secondary"
-                                textColor="text-white"
-                                hoverTextColor="text-white"
-                                iconColor="before:bg-white after:bg-white"
-                                hoverIconColor="hover:before:bg-white hover:after:bg-white"
                             />
                         </div>
                     </div>

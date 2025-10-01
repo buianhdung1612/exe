@@ -4,21 +4,20 @@ interface ButtonProps {
     content: string;
     background?: string;
     hoverBackground?: string;
-    svgColor: string;
-    hoverSvgColor: string;
-    textColor: string;
+    svgColor?: string;
+    hoverSvgColor?: string;
+    textColor?: string;
     hoverTextColor?: string;
-    iconColor: string;
+    iconColor?: string;
     hoverIconColor?: string;
-    // textColor?: string;
 }
 
-export const Button = ({ content, background = "bg-white", hoverBackground, svgColor, hoverSvgColor, textColor, hoverTextColor, iconColor, hoverIconColor }: ButtonProps) => {
+export const Button = ({ content, background = "bg-white", hoverBackground, svgColor = "text-white", hoverSvgColor, textColor = "text-white", hoverTextColor, iconColor = "before:bg-white after:bg-white", hoverIconColor }: ButtonProps) => {
     return (
-        <div className="relative inline-block min-w-[142px] group outside-button">
+        <div className="relative inline-block min-w-[135px] group outside-button">
             <Link
                 to="/"
-                className={`button-text ${background} ${hoverBackground} ${textColor} hover:${hoverTextColor} ${iconColor} ${hoverIconColor} hover:animate-jumpeffect hover:[box-shadow:0_0_30px_#ffffff33] inline-block relative mask-[url('/mask-bg-button.svg')] mask-no-repeat mask-center mask-[size:100%] rounded-[10px] px-[30px] py-[12px] text-[2rem] font-secondary transition-all duration-300 linear`}
+                className={`button-text ${background} ${hoverBackground} ${textColor} ${hoverTextColor} ${iconColor} ${hoverIconColor} hover:animate-jumpeffect hover:[box-shadow:0_0_30px_#ffffff33] inline-block relative mask-[url('/mask-bg-button.svg')] mask-no-repeat mask-center mask-[size:100%] rounded-[10px] px-[30px] py-[12px] text-[1.6rem] font-secondary transition-all duration-300 linear`}
             >
                 {content}
             </Link>
