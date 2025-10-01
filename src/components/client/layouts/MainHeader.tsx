@@ -10,7 +10,7 @@ export const MainHeader = () => {
                     {/* Logo */}
                     <div className="w-[15%] flex justify-center">
                         <Link to="/">
-                            <img src="https://i.imgur.com/07baJyd.png" alt="" className="w-[195px] h-[70px] object-cover z-10" />
+                            <img src="https://i.imgur.com/V2kwkkK.png" alt="" className="w-[190px] object-cover z-10" />
                         </Link>
                     </div>
 
